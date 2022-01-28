@@ -83,4 +83,4 @@ This work is licensed under a Creative Commons Attribution 4.0 International Lic
 
 The Disaster Response Message Dataset is provided by Figure Eight
 
-Graphs by [Plotly] (https://plotly.com/)
+Graphs by Plotly (https://plotly.com/)

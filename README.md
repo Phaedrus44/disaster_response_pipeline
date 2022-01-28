@@ -73,7 +73,9 @@ Go to http://0.0.0.0:3001/ This may work better if you change the host address t
 # Results
 
 The flask App runs and displays the classes associated with the message than the user inputs. Plotly graphs of the message dataset are displayed on the webpage.
-Licensing, Authors, Acknowledgements
+
+
+# Licensing, Authors, Acknowledgements
 
 Creative Commons Licence
 

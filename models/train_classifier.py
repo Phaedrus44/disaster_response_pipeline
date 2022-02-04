@@ -164,11 +164,13 @@ def build_model():
     ] )
 
     # Create grid search object
+    # For grid search, commenting out some parameters to reduce runtime. Workspace IDE kept timing out when trying to run. Have tried over numerous hours & days!!
 
     parameters = {'vect__min_df': [1, 5],
               'tfidf__use_idf':[True, False],
-              'clf__estimator__n_estimators':[100, 150], 
-              'clf__estimator__min_samples_split':[2, 5, 10]}
+              # 'clf__estimator__n_estimators':[100, 150], 
+              # 'clf__estimator__min_samples_split':[2, 5, 10]
+                 }
 
     scorer = make_scorer(performance_metric)
     model = GridSearchCV(pipeline1, param_grid = parameters, scoring = scorer, cv=3, verbose = 10, n_jobs=None)

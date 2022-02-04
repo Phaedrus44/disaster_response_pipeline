@@ -67,7 +67,7 @@ Run the following command in the app's directory to run your web app.
         
         python run.py
 
-Go to http://0.0.0.0:3001/ This may work better if you change the host address to 127.0.0.1 in the Run.py file and use the URL http://127.0.0.1:3001/
+Go to http://0.0.0.0:3001/ 
 
 
 # Results
